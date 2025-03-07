@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dzer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <script>
+function maksa(){
+	let dz = document.getElementsByName('drink');
+    for(i = 0; i < dz.length; i++) {
+       if(dz[i].checked)
+      	document.getElementById("cena").textContent = dz[i].value + " €";
+	}
+ }   
+</script>
+<p>Izvēlies dzērienu:</p>
+<form>
+  <input type="radio" id="kafija" name="drink" value="3.60">
+  <label for="kafija">kafija</label><br>
+  <input type="radio" id="sula" name="drink" value="2.50">
+  <label for="sula">sula</label><br>
+  <input type="radio" id="kakao" name="drink" value="3.20">
+  <label for="kakao">kakao</label><br><br>
+  <input type="button" id="poga" value="jāmaksā" onclick="maksa()">
+  <span id="cena"></span>
+</form> 
+    </body>
+</html>

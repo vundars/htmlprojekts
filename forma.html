@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forma</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <h1>Formas un ievadlauku piemērs</h1>
+    <form>
+        <p>Šodienas datums <input name="datums"></p>
+        <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
+            <input onclick="datums.value=new Date();" name="poga" value="DATUMS" type="button">
+        </p>
+        <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
+    </form>
+    <form>
+        <div>1.skaitlis<input type="text" name="sk1"> </div>
+        <div>
+            <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
+            <input value="+" name="sask" onclick="rez.value=parseInt(sk1.value)+parseInt(sk2.value)" type="button">
+            <input value="-" name="atne" onclick="rez.value=sk1.value-sk2.value" type="button">
+            <input value="/" name="dali" onclick="rez.value=sk1.value/sk2.value" type="button">
+            <input value="reset" name="rese" onclick="sk1.value=' '; rez.value=' ' ; sk2.value=' ' " type="button">
+        </div>
+        <div>2.skaitlis<input type="text" name="sk2"> </div>
+        <hr>
+        <div>Rezultāts<input name="rez"> </div>
+    </form>
+    </body>
+</html>
