@@ -1,4 +1,6 @@
-
+.sakums {
+    margin-top: 50px;
+}
  .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
@@ -9,25 +11,25 @@
     opacity: 0.9;
   }
   .navbar li a, .navbar .navbar-brand { 
-    color: #d5d5d5 !important;
+    color: #000 !important;
   }
   .navbar-nav li a:hover {
-    color: #a38987 !important;
+    color: #6d6c6c !important;
   }
   .navbar-nav li.active a {
     color: #fff !important;
-    background-color: #29292c !important;
+    background-color: #9e9e97 !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
   }
   .open .dropdown-toggle {
     color: #fff;
-    background-color: #555 !important;
+    background-color: #a9a99e !important;
   }
   .dropdown-menu li a {
     color: #000 !important;
   }
   .dropdown-menu li a:hover {
-    background-color: red !important;
+    background-color: #000 !important;
   }
