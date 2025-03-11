@@ -1,14 +1,39 @@
+#h h1{
+    text-align: center;
+    padding: 20px;
+}
+#h h2{
+    text-align: center;
+    padding: 20px;
+}
+img {
+    width: 55%;
+    border: 2px solid black !important;
+    border-radius: 10px;
+}
+#rekl img {
+    width: 100%;
+    border-radius: 0px;
+}
+#plak img{
+    width: 100%;
+    border-radius: 0px;
+}
+.akl a{
+    text-decoration: none !important; 
+    color: black !important ; 
+}
 .sakums {
     margin-top: 50px;
 }
- .navbar {
+.navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: #a38987;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
-    opacity: 0.9;
+    opacity: 1;
   }
   .navbar li a, .navbar .navbar-brand { 
     color: #000 !important;
