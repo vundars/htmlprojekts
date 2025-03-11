@@ -2,7 +2,7 @@
     text-align: center;
     padding: 20px;
 }
-#h h2{
+#e h2{
     text-align: center;
     padding: 20px;
 }
@@ -20,8 +20,8 @@ img {
     border-radius: 0px;
 }
 .akl a{
-    text-decoration: none !important; 
-    color: black !important ; 
+    text-decoration: none !important;
+    color: black !important ;
 }
 .sakums {
     margin-top: 50px;
@@ -34,27 +34,27 @@ img {
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity: 1;
-  }
-  .navbar li a, .navbar .navbar-brand { 
+}
+.navbar li a, .navbar .navbar-brand {
     color: #000 !important;
-  }
-  .navbar-nav li a:hover {
+}
+.navbar-nav li a:hover {
     color: #6d6c6c !important;
-  }
-  .navbar-nav li.active a {
+}
+.navbar-nav li.active a {
     color: #fff !important;
     background-color: #9e9e97 !important;
-  }
-  .navbar-default .navbar-toggle {
+}
+.navbar-default .navbar-toggle {
     border-color: transparent;
-  }
-  .open .dropdown-toggle {
+}
+.open .dropdown-toggle {
     color: #fff;
     background-color: #a9a99e !important;
-  }
-  .dropdown-menu li a {
+}
+.dropdown-menu li a {
     color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
+}
+.dropdown-menu li a:hover {
     background-color: #000 !important;
-  }
+}
