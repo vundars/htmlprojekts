@@ -22,7 +22,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="index.html">Logo</a>
+                    <a class="navbar-brand" href="index.html">Portfolio</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -41,29 +41,37 @@
                 </div>
             </div>
         </nav>
-        <h1 class="sakums">Formas un ievadlauku piemērs</h1>
-        <form>
-            <p>Šodienas datums <input name="datums"></p>
-            <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
-                <input onclick="datums.value = new Date();" name="poga" value="DATUMS" type="button">
-            </p>
-            <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
-                <input value="RESET" type="reset">
-            </p>
-        </form>
-        <form>
-            <div>1.skaitlis<input type="text" name="sk1"> </div>
-            <div>
-                <input value="X" name="reiz" onclick="rez.value = sk1.value * sk2.value" type="button">
-                <input value="+" name="sask" onclick="rez.value = parseInt(sk1.value) + parseInt(sk2.value)" type="button">
-                <input value="-" name="atne" onclick="rez.value = sk1.value - sk2.value" type="button">
-                <input value="/" name="dali" onclick="rez.value = sk1.value / sk2.value" type="button">
-                <input value="reset" name="rese" onclick="sk1.value = ' '; rez.value = ' '; sk2.value = ' '" type="button">
-            </div>
-            <div>2.skaitlis<input type="text" name="sk2"> </div>
-            <hr>
-            <div>Rezultāts<input name="rez"> </div>
-        </form>
+       <div class="container-box title-box">
+            <h1>Formas un ievadlauku piemērs</h1>
+        </div>
+        <div class="container-box">
+            <form>
+                <p>Šodienas datums: <input name="datums" class="form-control"></p>
+                <p>Ja gribi uzzināt šodienas datumu, spied pogu DATUMS 
+                    <input onclick="datums.value = new Date();" name="poga" value="DATUMS" type="button" class="btn btn-primary">
+                </p>
+                <p>Ja gribi izdzēst datumua lodziņa saturu, spied pogu RESET
+                    <input value="RESET" type="reset" class="btn btn-danger">
+                </p>
+            </form>
+        </div>
+
+        <div class="container-box">
+            <form>
+                <div>1.skaitlis<input type="text" name="sk1" class="form-control"> </div>
+                <div>
+                    <input value="X" name="reiz" onclick="rez.value = sk1.value * sk2.value" type="button" class="btn btn-info">
+                    <input value="+" name="sask" onclick="rez.value = parseInt(sk1.value) + parseInt(sk2.value)" type="button" class="btn btn-success">
+                    <input value="-" name="atne" onclick="rez.value = sk1.value - sk2.value" type="button" class="btn btn-warning">
+                    <input value="/" name="dali" onclick="rez.value = sk1.value / sk2.value" type="button" class="btn btn-danger">
+                    <input value="reset" name="rese" onclick="sk1.value = ' '; rez.value = ' '; sk2.value = ' '" type="button" class="btn btn-secondary">
+                </div>
+                <div>2.skaitlis<input type="text" name="sk2" class="form-control"> </div>
+                <hr>
+                <div>Rezultāts<input name="rez" class="form-control" readonly></div>
+            </form>
+        </div>
+
         <footer id="ft">Background attēls <a href="https://plus.unsplash.com/premium_photo-1701534008693-0eee0632d47a?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">/links/</a>.</footer>        
     </body>
 </html>
